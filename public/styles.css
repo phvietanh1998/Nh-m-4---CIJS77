@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #888;
+
+  font-size: 14px;
+  font-family: "Roboto", "segoe ui", Helvetica, Arial, sans-serif;
+}
+input {
+  display: block;
+  border: none;
+  padding-bottom: 10px;
+  font-size: 40px;
+  width: 100%;
+  pointer-events: none;
+}
+input::placeholder {
+  padding-left: 1%;
+  color: lightgray;
+}
+.title {
+  border-bottom: 1px solid black;
+  margin-top: 50px;
+}
+.block {
+  margin: auto;
+  width: 40%;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-top: 70px;
+}
+ul.list {
+  list-style-type: circle;
+  font-size: 30px;
+}
+
+li {
+  padding-left: 30px;
+  line-height: 50px;
+  align-items: center;
+}
