@@ -5,8 +5,12 @@ import data from "../data";
 function App() {
   return (
     <div>
-      {data.map((e) => (
-        <List key={e.id} content={e.content} info={e.info}></List>
+      {data.map((elementData) => (
+        <List
+          key={elementData.id}
+          content={elementData.content}
+          info={elementData.info}
+        ></List>
       ))}
     </div>
   );
