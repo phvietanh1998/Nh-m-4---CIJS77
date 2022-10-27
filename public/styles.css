@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+}
+.light {
+  margin: 0 auto;
+}
+.dot {
+  margin: 1%;
+  height: 25px;
+  width: 25px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+}
