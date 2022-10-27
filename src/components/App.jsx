@@ -9,13 +9,13 @@ function App() {
   });
 
   function changeColor() {
-    setArr(() => {
-      return [...arr, arr[0]].filter((value, index) => {
+    setArr((preValue) => {
+      return [...preValue, preValue[0]].filter((value, index) => {
         return index > 0;
       });
     });
-    setColor(() => {
-      return { ...isColor, [arr[1]]: true, [arr[0]]: false };
+    setColor((preValue) => {
+      return { ...preValue, [arr[1]]: true, [arr[0]]: false };
     });
   }
   return (
