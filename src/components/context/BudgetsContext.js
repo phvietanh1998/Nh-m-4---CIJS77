@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { v4 as uuidV4 } from "uuid";
 import useLocalStorage from "use-local-storage";
-
+import data from "./data";
 const BudgetsContext = React.createContext();
 export function useBudgets() {
   return useContext(BudgetsContext);
@@ -13,7 +13,7 @@ export function getMonthName(month) {
   return monthName;
 }
 export const BudgetsProvider = ({ children }) => {
-  const [transaction, setTransaction] = useLocalStorage("transaction", []);
+  const [transaction, setTransaction] = useLocalStorage("transaction", data);
   // const [incomesList, setIncomes] = useState([]);
   // const [expensesList, setExpenses] = useState([]);
 

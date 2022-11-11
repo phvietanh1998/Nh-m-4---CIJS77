@@ -157,7 +157,7 @@ export default function StatisticPage() {
           backgroundColor: "white",
           borderRadius: 5,
           margin: "0 auto",
-          marginTop: 50,
+          marginTop: 55,
           padding: 1,
         }}
       >
