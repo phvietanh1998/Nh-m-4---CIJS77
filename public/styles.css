@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+
+.scrollBar {
+  /* overflow-y: auto; */
+  max-height: 700px;
+  /* -ms-overflow-style: none; */
+  scrollbar-width: none;
+  overflow: hidden;
+}
+.scrollBar::-webkit-scrollbar {
+  display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  --webkit-appearance: none;
+  margin: 0;
+}
+.specific {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.specificAdd {
+  margin-left: 28%;
+  margin-right: 28%;
+}
+.width-homepage {
+  height: "600px";
+}
+.statistic-filter {
+  margin: 30px auto;
+  width: 450px;
+}
+.screen-statistics {
+  max-width: 450px;
+}
+@media only screen and (max-width: 600px) {
+  .specific {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .specificAdd {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .specificNav {
+    width: 100%;
+  }
+  .statistic-filter {
+    padding-left: 0;
+    padding-right: 50%;
+    width: "100%";
+  }
+  .screen-statistics {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .specific {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .specificAdd {
+    margin-left: 21%;
+    margin-right: 21%;
+  }
+  .specificNav {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .specific {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .specificAdd {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .specificNav {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .specific {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  .specificAdd {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  .specificNav {
+    width: 40%;
+  }
+  .width-homepage {
+    height: "900px";
+  }
+}
