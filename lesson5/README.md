@@ -1,3 +1,7 @@
+Session 8: Side Effect with useEffect
+
+![image](https://user-images.githubusercontent.com/58402497/201844659-4f0a28b3-c310-4092-a881-cf645b522d3e.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
